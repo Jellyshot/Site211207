@@ -22,26 +22,44 @@
     font-size: 17px;
 }
 .topnav a:hover{
-    background-color: --darkgray-color;
+    background-color:var(--darkgray-color);
     color: var(--black-color);
 }
 .topnav a.active{
     background-color: #2196f3;
     color: var(--gray-color);
 }
-.topnav input[type=text]{
+.topnav button{
     float: right;
+}
+.topnav input[type=text]{
     padding: 6px;
     border: none;
     margin-top: 8px;
-    margin-right: 16px;
     font-size: 17px;
+}
+.topnav .search-container{
+    float: right;
+}
+.topnav .search-container button{
+    float: right;
+    padding: 6px 14px;
+    font-size: 17px;
+    margin-top: 8px;
+    margin-right: 16px;
+    border: none;
+    background-color: var(--gray-color);
+    cursor: pointer;
+    box-shadow: 1px 1px 3px gray;
+}
+.topnav .search-container button:hover{
+    background-color: var(--darkgray-color);
 }
 .contents{
     padding: 14px;
 }
 @media screen and (max-width: 600px){
-    .topnav a, .topnav input[type=text]{
+    .topnav a, .topnav input[type=text], .topnav .search-container, .topnav .search-container button{
         float: none;
         display: block;
         text-align: left;
