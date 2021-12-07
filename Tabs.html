@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Tabs</title>
+    <link rel="stylesheet" href="/css/Tabs.css">
+</head>
+<body>
+    
+    <div class="tab">
+        <button class="tablinks" onclick="openCity(event,'London')" id="opendefault">London</button>
+        <button class="tablinks" onclick="openCity(event,'Paris')">Paris</button>
+        <button class="tablinks" onclick="openCity(event,'Seoul')">Seoul</button>
+    </div>
+
+    <div id="London" class="tabcontent">
+        <!-- tabcontent 이 버튼과 일치하는 탭콘텐츠가 열림 -->
+        <span onclick="this.parentElement.style.display = 'none'" class="topright">x</span>
+        <h3>London</h3>
+        <p>London is the capital city of England.</p>
+    </div>
+    <div id="Paris" class="tabcontent">
+        <span onclick="this.parentElement.style.display = 'none'" class="topright">x</span>
+        <h3>Paris</h3>
+        <p>Paris is the capital of France.</p>
+    </div>
+    <div id="Seoul" class="tabcontent">
+        <span onclick="this.parentElement.style.display = 'none'" class="topright">x</span>
+        <h3>Seoul</h3>
+        <p>Seoul is the capital of Korea.</p>
+    </div>
+
+    <script defer src="/js/Tabs.js"></script>
+</body>
+</html>

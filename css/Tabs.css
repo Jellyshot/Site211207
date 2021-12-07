@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color:rgba(0, 0, 0, 83%)
+}
+
+.tab{
+    overflow: hidden;
+    border: 1px solid #64004e;
+    background-color: #ff77a9;
+}
+.tab button{
+    background-color: inherit;
+    float: left;
+    border: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3 s;
+}
+
+.tab button:hover{
+    background-color: #ec407a;
+}
+
+.tab button.active{
+    background-color: #64004e;
+    color: rgb(255, 255, 255, 83%);
+}
+.tabcontent{
+    display: none;
+    padding: 10px 12px;
+    border: 1px solid rgb(116, 6, 92);
+    border-top: none;
+    /* border-top: none은 테두리가 겹치니까 씀 */
+}
+.topright{
+    float: right;
+    cursor: pointer;
+    font-size: 23px;
+}
