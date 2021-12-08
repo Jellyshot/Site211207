@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    overflow: hidden;
+    background-color: lightblue;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar a{
+    float: left;
+    display: block;
+    color: lightseagreen;
+    font-weight: bolder; 
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.navbar a:hover{
+    background-color: rgba(236, 218, 191, 0.89);
+}
+.main{
+    margin-top: 70px;
+    padding: 14px;
+    line-height: 1.5rem;
+}
+footer{
+    overflow: hidden;
+    background-color: rgb(183, 202, 226);
+    color: rgb(29, 146, 140);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+footer p{
+    padding: 14px;
+    text-align: center;
+    font-size: 0.8rem;
+}
