@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.scrollmenu{
+    background-color: black;
+    overflow: auto;
+    white-space: nowrap;
+    /* white-space는 스페이스와 탭, 줄바꿈, 자동줄바꿈을 어떻게 처리할 지 정하는 속성이다. 
+    디폴트는 스페이스와 탭, 줄바꿈 병합 및 자동줄바꿈.
+    nowrap은 자동줄바꿈을 하지 않음.
+    pre 스페이스와 탭 병합x
+    pre-wrap 자동줄바꿈도 하고 스페이스 탭도 그대로 입력*/
+}
+.scrollmenu a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 14px;  
+    text-align: center;
+}
+.scrollmenu a:hover{
+    background-color: gray;
+}
