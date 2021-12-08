@@ -1,0 +1,40 @@
+*{
+    margin: 0;  
+    padding: 0;
+    box-sizing: border-box;
+}
+#mySidenav a{
+    position: absolute;
+    padding: 15px;
+    width: 120px;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 0 5px 5px 0;
+    left: -70px;
+    transition: 0.3s;
+    color: #ffebff;
+}
+#mySidenav a:hover{
+    left: 0;
+}
+
+#about{
+    top: 20px;
+    background-color: #ff5bff;
+}
+#blog{
+    top: 80px;
+    background-color: #9e00c5;
+}
+#projects{
+    top: 140px;
+    background-color: #ea80fc;
+}
+#contact{
+    top: 200px;
+    background-color: #d222f1;
+}
+.main{
+    margin-left: 80px;
+    margin-top: 40px;
+}
